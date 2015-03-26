@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #997D41;
+	margin: 0;
+}
+
+.row {
+	width: 100%;
+}
+
+.row.header {
+	background: #EBE5D9;
+	border-bottom: 1px solid #eee;
+	padding: 5px 0;
+}
+
+.wrapper {
+	width: 96%;
+	margin: 0 auto;
+	max-width: 900px;
+	min-height: 100%;
+	padding: 1%;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+h1 input {
+	width: 95%;
+	text-align: center;
+	padding: 10px;
+	font-size: 0.6em;
+}
+
+#header {
+	text-align: center;
+}
+
+#add {
+	margin-top: 40px;
+	font-size: 1.2em;
+}
+
+#logo {
+   font-size: 2.3em;
+   text-align: center;
+   padding-bottom: 10px;
+   color: #401D01;  /*401D01*/
+}
+
+.desc {
+   font-size: 1.8em;
+   text-align: center;
+   color: #401D01;
+   padding: 10px;
+}
+
+.usercount {
+   background: #9FB0BA;
+   color: white;
+   border-radius: 5px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.sub {
+   font-size: 1.4em;
+   color: #222;
+   padding: 10px;
+   padding-bottom: 20px;
+}
+
+
+.img-small {
+   width: 50px;
+   height: auto;
+}
+
+small {
+	font-size: 1em;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+text-align: center;
+}
+
+/*
+
+Item list
+
+*/
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	position: relative;
+	margin: 10px 0;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+	background: #f5f5f5;
+	border-left: 4px solid #ccc;
+}
+
+li .action {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	display: none;
+	-webkit-transition: all 0.1s linear;
+}
+
+li:hover .action {
+	display: block;
+}
+
+li:hover {
+   border-left: 4px solid #FF7406;
+}
+
+span.date {
+	display: block;
+	margin-top: 10px;
+	padding-left: 0;
+	font-size: 0.75em;
+	color: #888;
+}
+
+.deleted-true {
+	opacity: 0.2;
+}
+
+.starred-true {
+	border-color:#9ecaed;
+}
+
+.hideme {
+display: none;
+}
+
+/*Form elements*/
+
+input, button {
+	font-size: 1em;
+}
+
+input {
+	border: 2px solid #eee;
+	border-radius: 2px;
+	padding: 6px;
+	width: 40%;
+}
+
+.btn {
+	border-radius: 2px;
+	border: 0;
+	/*background: #91A960;*/
+   background: #FF7406;
+	padding: 8px 15px;
+	text-transform: uppercase;	
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	font-size: 0.9em;
+}
+
+.btn:active {
+	background: #7A9050;
+}
+
+.btn-secondary {
+	background: #9FB0BA;
+	-webkit-transition: all 0.1s linear;
+	top: 1px;
+}
+
+.btn-secondary:hover {
+	background: #5F7B8C;
+	-webkit-transition: all 0s linear;
+}
+
+.btn-secondary:active {
+	background: #5F7B8C;
+}
+
+.btn-emph {
+	background: #FFAC6A;
+	-webkit-transition: all 0.1s linear;
+	top: 1px;
+}
+
+.lwr {
+   text-transform: lowercase;
+}
+
+.btn-emph:hover {
+   background: #FF7406;
+   -webkit-transition: all 0s linear;
+}
+
+
+#about {
+text-align: center;
+width: 100%;
+bottom: 0;
+color: #222;
+font-size: 0.8em;
+padding: 6px;
+}

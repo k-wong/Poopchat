@@ -1,0 +1,15 @@
+﻿<div class="row header" ng-init="init()">
+    <div class="wrapper">
+        <div id="header">
+            <img class="img-small" src="poo-sm.png"><div id="logo"><b>Poopchat -</b> let's talk about shit.</div>
+            <div class="sub">Connecting <span class="usercount">{{numOnline}}</span> bathroom-goers across the globe since 2013.</div>
+            <div class="desc">Find someone <button href="" class="btn btn-emph lwr" type="submit" ng-click="findRoom()">random</button> to talk to.</div>
+            
+            <div class="desc">Private conversation? <button href="" class="btn btn-secondary lwr" type="submit" ng-click="newRoom()">Try here</button></div>
+            <!--<h2>Welcome, {{currName}} - {{currId}}</h2>-->
+            <!--<small>{{users}}</small>-->
+            
+            <!--<button href="" class="btn btn-secondary lwr" type="submit" ng-click="deleteAllUsers()">...</button>-->
+        </div>
+    </div>
+</div>

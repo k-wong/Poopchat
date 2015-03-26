@@ -1,0 +1,38 @@
+<div class="row header" ng-init="init()">
+    <div class="wrapper">
+        <div id="header">
+            <img class="img-small" src="poo-sm.png"><div id="logo"><b>Poopchat -</b> let's talk about shit.</div>
+            <small>Invite a friend to chat with you: </small>
+            <h1><input type="text" value="{{url}}" /></h1>
+        </div>
+
+        <div id="add">
+            <button href="" id="nameTrigger" class="btn btn-secondary right" onclick="showChangeBtn();">Change your name, {{currName}}</button>
+            <button href="" id="nameSubmit" class="btn btn-secondary right hideme" onclick="hideChangeBtn();" ng-click="changeName()">Yep</button>
+            <input type="text" id="nameInput" class=" right hideme" ng-model="nameText" placeholder="{{currName}}" />
+
+            
+            <form ng-submit="addNewItem()">
+                <input type="text" ng-model="itemText" placeholder="whatcha thinking 'bout?" />
+                <button href="" class="btn btn-primary" type="submit">Send</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="wrapper">
+        <ul id="list">
+            <li ng-repeat="item in items | orderBy:'_created':true">
+                <b>{{item.name}}</b>: {{item.text}}
+                <span class="date">{{item._created | date:'medium'}}</span>
+                <!--<div class="action">
+                    <a href="" ng-click="deleteItem(item)">del</a> 
+                </div>-->
+            </li>
+        </ul>
+        <!--<div class="center">
+            <button href="" class="btn btn-primary" ng-click="">Clear chat contents</button>
+        </div>-->
+    </div>
+</div>
