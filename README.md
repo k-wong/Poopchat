@@ -1,8 +1,10 @@
-AngularJS + Backlift tutorial, template A
+Poopchat
 ======================
 
-This template is part of tutorial, covering AngularJS and Backlift. 
+![Icon](https://github.com/k-wong/Poopchat/blob/master/favicon.ico)
 
-This one is just a skeleton, containing AngularJS-libraries.
 
-See live version: https://angularfirst-yzfnx.backliftapp.com/
+Web chat application using Angular and Backlift; "Let's talk about shit."
+
+Unfortunately Backlift has since shut down.
+
